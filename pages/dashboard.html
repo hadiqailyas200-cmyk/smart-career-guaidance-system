@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Student Dashboard | Smart Career Guidance System</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+<div class="dashboard-layout">
+
+
+    <!-- =========================================
+         LEFT SIDEBAR
+    ========================================== -->
+
+    <aside class="dashboard-sidebar">
+
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                ✦
+            </div>
+
+            <div>
+                <strong>Smart Career</strong>
+                <span>Guidance System</span>
+            </div>
+
+        </div>
+
+
+
+        <!-- PROFILE -->
+
+        <div class="sidebar-profile">
+
+            <div class="profile-avatar">
+                S
+            </div>
+
+            <h3 id="dashboardUserName">
+    Student Name
+</h3>
+
+<p id="dashboardUserEmail">
+    student@example.com
+</p>
+            <span class="profile-status">
+                ● Student
+            </span>
+
+        </div>
+
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="sidebar-nav">
+
+            <a
+                href="dashboard.html"
+                class="sidebar-nav-item active"
+            >
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+
+            <a
+                href="assessment.html"
+                class="sidebar-nav-item"
+            >
+                <span>📝</span>
+                Assessment
+            </a>
+
+
+            <a
+                href="recommendation.html"
+                class="sidebar-nav-item"
+            >
+                <span>🎯</span>
+                Career Recommendation
+            </a>
+
+
+        </nav>
+
+
+
+        <!-- SIDEBAR BOTTOM -->
+
+        <div class="sidebar-bottom">
+
+            <a
+    href="profile.html"
+    class="sidebar-profile-btn"
+>
+    ⚙ Profile Settings
+</a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =========================================
+         RIGHT DASHBOARD
+    ========================================== -->
+
+    <main class="dashboard-main">
+
+
+        <!-- TOP HEADER -->
+
+        <header class="dashboard-topbar">
+
+            <div>
+
+                <span class="welcome-label">
+                    ✦ STUDENT DASHBOARD
+                </span>
+
+                <h1>
+    Welcome Back, <span id="welcomeUserName">Student!</span>
+</h1>
+                <p>
+                    Your career journey at a glance.
+                </p>
+
+            </div>
+
+
+            <a
+                href="assessment.html"
+                class="assessment-btn"
+            >
+                Take Assessment →
+            </a>
+
+        </header>
+
+
+
+        <!-- =====================================
+             STATISTICS
+        ====================================== -->
+
+        <section class="stats-grid">
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    📊
+                </div>
+
+                <div>
+                    <span>Skill Match</span>
+                    <strong id="dashboardSkillMatch">45%</strong>
+                    <small>Overall match</small>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    🧩
+                </div>
+
+                <div>
+                    <span>Skills Analyzed</span>
+                    <strong>8</strong>
+                    <small>Skills identified</small>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    💡
+                </div>
+
+                <div>
+                    <span>Career Matches</span>
+                    <strong>3</strong>
+                    <small>AI recommendations</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             MAIN TWO COLUMNS
+        ====================================== -->
+
+        <section class="main-cards-grid">
+
+
+            <!-- =================================
+                 SKILL GAP
+            ================================== -->
+
+            <article class="dashboard-card skill-card">
+
+
+                <div class="card-header">
+
+                    <div class="card-title-icon">
+                        🎯
+                    </div>
+
+                    <div>
+
+                        <span>
+                            MAIN FEATURE
+                        </span>
+
+                        <h2>
+                            Skill Gap Analysis
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <p class="card-description">
+                    Compare your current skills with the
+                    skills required for your recommended career.
+                </p>
+
+
+                <!-- MATCH -->
+
+<div class="match-header">
+
+    <strong>
+        Overall Skill Match
+    </strong>
+
+    <span id="dashboardOverallMatch">
+        45%
+    </span>
+
+</div>
+
+               <div class="progress-track">
+
+    <div
+        id="dashboardProgressValue"
+        class="progress-value"
+        style="width:45%;"
+    ></div>
+
+</div>
+
+
+                <!-- SKILLS SUMMARY -->
+
+                <div class="skill-summary">
+    <div>
+        <span>Current Skills</span>
+        <strong id="dashboardCurrentSkills">8</strong>
+    </div>
+
+    <div>
+        <span>Skills to Improve</span>
+        <strong id="dashboardSkillsToImprove">0</strong>
+    </div>
+</div>
+
+                <a
+                    href="recommendation.html"
+                    class="card-link"
+                >
+                    View Full Skill Analysis →
+                </a>
+
+            </article>
+
+
+
+           
+        <!-- =====================================
+             LOWER SUMMARY
+        ====================================== -->
+
+        <section class="lower-grid">
+
+
+            <!-- CAREER -->
+
+            <article class="mini-card">
+
+                <div class="mini-card-icon">
+                    💡
+                </div>
+
+                <div>
+
+                    <span>
+                        TOP CAREER MATCH
+                    </span>
+
+                    <h3>
+                        AI Career Recommendation
+                    </h3>
+
+                    <p>
+                        Complete your assessment to get
+                        your personalized career.
+                    </p>
+
+                    <a href="assessment.html">
+                        Start Assessment →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CTA
+        ====================================== -->
+
+        <section class="dashboard-cta">
+
+            <div>
+
+                <span>
+                    ✦ START YOUR JOURNEY
+                </span>
+
+                <h2>
+                    Ready to Discover Your Career Path?
+                </h2>
+
+                <p>
+                    Take the assessment and let our smart system
+                    analyze your interests, skills and goals.
+                </p>
+
+            </div>
+
+
+            <a
+                href="assessment.html"
+                class="cta-btn"
+            >
+                Start Assessment →
+            </a>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>

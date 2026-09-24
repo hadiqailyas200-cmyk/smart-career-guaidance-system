@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Title -->
+    <title>Smart Career Guidance System</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         NAVBAR
+    ========================================== -->
+
+    <header class="navbar">
+
+        <div class="container navbar-container">
+
+
+            <!-- =================================
+                 LOGO / BRAND
+            ================================== -->
+
+            <a href="index.html" class="brand">
+
+                <!-- Logo Image -->
+                <img
+                    src="/images/logo.png"
+                    alt="Smart Career Guidance System Logo"
+                    class="logo-image"
+                >
+
+                <!-- Brand Text -->
+                <div class="brand-text">
+
+                    <span class="brand-title">
+                        Smart Career
+                    </span>
+
+                    <span class="brand-subtitle">
+                        Guidance System
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <!-- =================================
+                 DESKTOP NAVIGATION
+            ================================== -->
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="/index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="about.html" class="nav-link">
+                    About
+                </a>
+
+                <a href="assessment.html" class="nav-link">
+                    Assessment
+                </a>
+
+                <a href="recommendation.html" class="nav-link active">
+                    Recommendation
+                </a>
+
+               
+            </nav>
+
+
+            <!-- =================================
+                 NAVBAR ACTION BUTTONS
+            ================================== -->
+
+         <div class="nav-actions">
+
+    <a href="login.html" class="signup-btn">
+        Get Started
+    </a>
+
+</div>
+
+            <!-- =================================
+                 MOBILE MENU BUTTON
+            ================================== -->
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+        </div>
+
+    </header>
+    <!-- =========================================
+     RECOMMENDATION HERO SECTION
+========================================= -->
+
+<section class="recommendation-hero">
+
+    <div class="container recommendation-hero-container">
+
+        <!-- =================================
+             LEFT CONTENT
+        ================================== -->
+
+        <div class="recommendation-hero-content">
+
+            <!-- Badge -->
+
+            <span class="section-badge recommendation-badge">
+
+                <span class="section-badge-icon">
+                    ✦
+                </span>
+
+                AI Career Recommendation
+
+            </span>
+
+
+            <!-- Heading -->
+
+            <h1 class="recommendation-hero-title">
+
+                Discover the Career Path
+
+                <span>
+                    That Fits You
+                </span>
+
+            </h1>
+
+
+            <!-- Description -->
+
+            <p class="recommendation-hero-description">
+
+                Based on your assessment, interests and skills,
+                our system identifies suitable career options
+                and helps you understand what skills you need
+                to move toward your ideal career.
+
+            </p>
+
+
+            <!-- Quick Feature Points -->
+
+            <div class="recommendation-hero-points">
+
+                <div class="recommendation-point">
+
+                    <span class="recommendation-point-icon">
+                        ✓
+                    </span>
+
+                    <span>
+                        AI-powered career matching
+                    </span>
+
+                </div>
+
+
+                <div class="recommendation-point">
+
+                    <span class="recommendation-point-icon">
+                        ✓
+                    </span>
+
+                    <span>
+                        Personalized skill analysis
+                    </span>
+
+                </div>
+
+
+                <div class="recommendation-point">
+
+                    <span class="recommendation-point-icon">
+                        ✓
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================
+             RIGHT SIDE — AI MATCH CARD
+        ================================== -->
+
+        <div class="recommendation-hero-visual">
+
+            <!-- Glow -->
+
+            <div class="recommendation-glow"></div>
+
+
+            <!-- Main Card -->
+
+            <div class="recommendation-match-card">
+
+                <!-- Card Header -->
+
+                <div class="recommendation-match-header">
+
+                    <div class="recommendation-match-icon">
+                        ✦
+                    </div>
+
+                    <div>
+
+                        <span>
+                            YOUR TOP MATCH
+                        </span>
+
+                        <h3>
+                            Career Match
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Match Circle -->
+
+                <div class="recommendation-score">
+
+                    <div class="recommendation-score-circle">
+
+                        <strong id="heroMatchPercentage">
+    92%
+</strong>
+                        <span>
+                            Match
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Career -->
+
+                <div class="recommendation-career">
+
+                    <span>
+                        Recommended Career
+                    </span>
+
+                   <h2 id="heroRecommendedCareer">
+    Software Developer
+</h2>
+                    <p>
+                        Strong match with your skills,
+                        interests and profile.
+                    </p>
+
+                </div>
+
+
+                <!-- Mini Skills -->
+
+                <div class="recommendation-mini-skills">
+
+                    <span>
+                        Programming
+                    </span>
+
+                    <span>
+                        Problem Solving
+                    </span>
+
+                    <span>
+                        Logical Thinking
+                    </span>
+
+                </div>
+
+
+                <!-- Bottom Label -->
+
+                <div class="recommendation-match-footer">
+
+                    <span class="recommendation-status">
+                        ●
+                    </span>
+
+                    <span>
+                        Personalized Recommendation
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Floating Card -->
+
+            <div class="recommendation-floating-card">
+
+                <span class="recommendation-floating-icon">
+                    ✓
+                </span>
+
+                <div>
+
+                    <strong>
+                        Skill Gap Identified
+                    </strong>
+
+                    <small>
+                        3 skills to improve
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 2 — RECOMMENDED CAREER PATHS
+========================================= -->
+
+<section class="career-matches-section">
+
+    <div class="container">
+
+        <!-- =====================================
+             SECTION HEADING
+        ====================================== -->
+
+        <div class="career-matches-heading">
+
+            <span class="section-badge">
+
+                <span class="section-badge-icon">
+                    ✦
+                </span>
+
+                Your Career Matches
+
+            </span>
+
+
+            <h2>
+
+                Careers That
+
+                <span>
+                    Match Your Profile
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                Based on your assessment results, these career
+                paths show the strongest alignment with your
+                interests, skills and profile.
+
+            </p>
+
+        </div>
+
+
+        <!-- =====================================
+             CAREER CARDS
+        ====================================== -->
+
+        <div
+            class="career-matches-grid"
+            id="careerMatchesGrid"
+        >
+
+            <!--
+                Career cards will be generated
+                automatically by recommendation.js
+            -->
+
+        </div>
+
+
+        <!-- =====================================
+             RESULT NOTE
+        ====================================== -->
+
+        <div class="career-match-note">
+
+            <span class="career-match-note-icon">
+                ✦
+            </span>
+
+            <div>
+
+                <strong>
+                    How are these matches calculated?
+                </strong>
+
+                <span>
+                    Career matches are based on your subjects,
+                    interests, skills and assessment responses.
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================
+     SECTION 3 — SKILL GAP ANALYSIS
+========================================= -->
+
+<section class="skill-gap-section">
+
+    <div class="container">
+
+        <!-- =====================================
+             SECTION HEADING
+        ====================================== -->
+
+        <div class="skill-gap-heading">
+
+            <span class="section-badge">
+
+                <span class="section-badge-icon">
+                    ✦
+                </span>
+
+                Skill Gap Analysis
+
+            </span>
+
+
+            <h2>
+
+                Understand Your
+
+                <span>
+                    Skill Gap
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                See which skills you already have, which skills
+                your career requires and what you should improve
+                to become career ready.
+
+            </p>
+
+        </div>
+
+
+        <!-- =====================================
+             SKILL GAP DASHBOARD
+        ====================================== -->
+
+        <div class="skill-gap-dashboard">
+
+
+            <!-- =================================
+                 LEFT — MATCH SUMMARY
+            ================================== -->
+
+            <div class="skill-gap-summary">
+
+
+                <div class="skill-gap-summary-top">
+
+                    <span class="skill-gap-small-label">
+                        SKILL MATCH
+                    </span>
+
+                    <span class="skill-gap-status">
+                        ● Good Match
+                    </span>
+
+                </div>
+
+
+                <!-- Match Circle -->
+
+                <div class="skill-gap-score">
+
+                    <div class="skill-gap-score-circle">
+
+                        <strong id="skillGapMatchPercentage">
+    0%
+</strong>
+                        <span>
+                            Skill Match
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+               <h3 id="skillGapCareer">
+    Career
+</h3>
+
+                <p>
+
+                    Your current skills show a strong foundation
+                    for this career. Focus on the highlighted
+                    skills to improve your career readiness.
+
+                </p>
+
+
+                <!-- Summary Stats -->
+
+                <div class="skill-gap-stats">
+
+
+                    <div class="skill-gap-stat">
+
+                        <strong id="currentSkillsCount">
+    0
+</strong>
+
+                        <span>
+                            Current Skills
+                        </span>
+
+                    </div>
+
+
+                    <div class="skill-gap-stat">
+
+                        <strong id="improveSkillsCount">
+    0
+</strong>
+                        <span>
+                            Skills to Improve
+                        </span>
+
+                    </div>
+
+
+                    <div class="skill-gap-stat">
+
+                        <strong id="requiredSkillsCount">
+    0
+</strong>
+
+                        <span>
+                            Required Skills
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 RIGHT — SKILL COMPARISON
+            ================================== -->
+
+            <div class="skill-gap-content">
+
+
+                <div class="skill-gap-content-header">
+
+                    <div>
+
+                        <span>
+                            SKILL ANALYSIS
+                        </span>
+
+                        <h3>
+                            Your Skills vs Required Skills
+                        </h3>
+
+                    </div>
+
+                   <span
+    class="skill-gap-career"
+    id="skillGapCareerRight"
+>
+    Career
+</span>
+
+                </div>
+
+
+                <!-- =================================
+                     CURRENT SKILLS
+                ================================== -->
+
+                <div class="skill-category">
+
+                    <div class="skill-category-title">
+
+                        <span class="skill-category-icon">
+                            ✓
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Your Current Skills
+                            </strong>
+
+                            <small>
+                                Skills you already have
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+    class="skill-bars"
+    id="currentSkillsList">
+                        <div class="skill-row">
+
+                            <div class="skill-row-info">
+
+                                <span>
+                                    Programming
+                                </span>
+
+                                <strong>
+                                    85%
+                                </strong>
+
+                            </div>
+
+                            <div class="skill-progress">
+
+                                <span
+                                    style="width: 85%;">
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill-row">
+
+                            <div class="skill-row-info">
+
+                                <span>
+                                    Problem Solving
+                                </span>
+
+                                <strong>
+                                    78%
+                                </strong>
+
+                            </div>
+
+                            <div class="skill-progress">
+
+                                <span
+                                    style="width: 78%;">
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill-row">
+
+                            <div class="skill-row-info">
+
+                                <span>
+                                    Logical Thinking
+                                </span>
+
+                                <strong>
+                                    82%
+                                </strong>
+
+                            </div>
+
+                            <div class="skill-progress">
+
+                                <span
+                                    style="width: 82%;">
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================
+                     SKILLS TO IMPROVE
+                ================================== -->
+
+                <div class="skill-category skill-category-gap">
+
+                    <div class="skill-category-title">
+
+                        <span class="skill-category-icon gap-icon">
+                            !
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Skills to Improve
+                            </strong>
+
+                            <small>
+                                Focus on these skills next
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+    class="skill-bars"
+    id="improveSkillsList"
+>
+
+
+                        <div class="skill-row">
+
+                            <div class="skill-row-info">
+
+                                <span>
+                                    Data Structures
+                                </span>
+
+                                <strong>
+                                    45%
+                                </strong>
+
+                            </div>
+
+                            <div class="skill-progress skill-gap-progress">
+
+                                <span
+                                    style="width: 45%;">
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill-row">
+
+                            <div class="skill-row-info">
+
+                                <span>
+                                    Database Management
+                                </span>
+
+                                <strong>
+                                    35%
+                                </strong>
+
+                            </div>
+
+                            <div class="skill-progress skill-gap-progress">
+
+                                <span
+                                    style="width: 35%;">
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="skill-row">
+
+                            <div class="skill-row-info">
+
+                                <span>
+                                    Version Control
+                                </span>
+
+                                <strong>
+                                    25%
+                                </strong>
+
+                            </div>
+
+                            <div class="skill-progress skill-gap-progress">
+
+                                <span
+                                    style="width: 25%;">
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     RECOMMENDATION
+                ================================== -->
+
+                <div class="skill-gap-tip">
+
+                    <span class="skill-gap-tip-icon">
+                        ✦
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Your Next Focus
+                        </strong>
+<span id="skillGapNextFocus">
+            Start with Data Structures and Database Management
+            to strengthen your Software Developer profile.
+        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+     SECTION 6 — RECOMMENDATION FINAL CTA
+========================================= -->
+
+<section class="recommendation-cta-section">
+
+    <!-- Decorative Glows -->
+
+    <div class="recommendation-cta-glow recommendation-cta-glow-one"></div>
+
+    <div class="recommendation-cta-glow recommendation-cta-glow-two"></div>
+
+
+    <div class="container">
+
+        <div class="recommendation-cta-card">
+
+
+            <!-- =================================
+                 LEFT CONTENT
+            ================================== -->
+
+            <div class="recommendation-cta-content">
+
+
+                <!-- Badge -->
+
+                <span class="recommendation-cta-badge">
+
+                    <span>
+                        ✦
+                    </span>
+
+                    Your Career Journey Starts Here
+
+                </span>
+
+
+                <!-- Heading -->
+
+                <h2>
+
+                    Ready to Build Your
+
+                    <span>
+                        Future Career?
+                    </span>
+
+                </h2>
+
+
+                <!-- Description -->
+
+                <p>
+
+                    Use your personalized recommendations,
+                    skill gap analysis and career roadmap to
+                    take the next step toward your career goals.
+
+                </p>
+
+
+                <!-- CTA Buttons -->
+
+                <div class="recommendation-cta-buttons">
+
+
+                    <!-- Primary -->
+
+                    <a
+                        href="assessment.html"
+                        class="recommendation-cta-primary"
+                    >
+
+                        <span>
+                            Retake Assessment
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <!-- Secondary -->
+
+                    <a
+                        href="dashboard.html"
+                        class="recommendation-cta-secondary"
+                    >
+
+                        View My Dashboard
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+</section>
+
+<!-- =========================================================
+     RECOMMENDATION PAGE FOOTER
+========================================================= -->
+
+<footer class="site-footer">
+
+    <div class="container footer-main">
+
+        <!-- BRAND -->
+        <div class="footer-brand">
+
+            <a href="../index.html" class="footer-brand-link">
+
+                <img
+                    src="../images/logo.png"
+                    alt="Smart Career Guidance System Logo"
+                    class="footer-brand-logo"
+                >
+
+                <div class="footer-brand-text">
+
+                    <span class="footer-brand-title">
+                        Smart Career
+                    </span>
+
+                    <span class="footer-brand-subtitle">
+                        Guidance System
+                    </span>
+
+                </div>
+
+            </a>
+
+            <p class="footer-description">
+                AI-powered career guidance designed to help
+                students discover suitable career paths,
+                identify skill gaps and plan their future
+                with confidence.
+            </p>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li>
+                    <a href="../index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="assessment.html">
+                        Assessment
+                    </a>
+                </li>
+
+                <li>
+                    <a href="recommendation.html">
+                        Recommendation
+                    </a>
+                </li>
+
+                <li>
+                    <a href="dashboard.html">
+                        Dashboard
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- CAREER FEATURES -->
+        <div class="footer-column">
+
+            <h3>Career Guidance</h3>
+
+            <ul>
+
+                <li>
+                    <a href="recommendation.html">
+                        AI Career Recommendation
+                    </a>
+                </li>
+
+                <li>
+                    <a href="recommendation.html">
+                        Skill Gap Analysis
+                    </a>
+                </li>
+
+                <li>
+                    <a href="assessment.html">
+                        Career Assessment
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- GET STARTED -->
+        <div class="footer-column">
+
+            <h3>Get Started</h3>
+
+            <div class="footer-contact-item">
+
+                <div class="footer-contact-icon">
+                    ✦
+                </div>
+
+                <span>
+                    Make smarter career decisions
+                    with personalized guidance.
+                </span>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <div class="footer-contact-icon">
+                    →
+                </div>
+
+                <span>
+                    <a href="login.html">
+                        Student Login
+                    </a>
+                </span>
+
+            </div>
+
+
+            <div class="footer-contact-item">
+
+                <div class="footer-contact-icon">
+                    +
+                </div>
+
+                <span>
+                    <a href="signup.html">
+                        Create an Account
+                    </a>
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="container footer-bottom">
+
+        <p class="footer-copyright">
+            © 2026 Smart Career Guidance System.
+            All Rights Reserved.
+        </p>
+
+        <div class="footer-bottom-links">
+
+            <a href="#">
+                Privacy Policy
+            </a>
+
+            <a href="#">
+                Terms of Use
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- =========================================
+     JAVASCRIPT
+========================================= -->
+<script src="/js/recommendation.js"></script>
+
+</body>
+</body>
+</html>

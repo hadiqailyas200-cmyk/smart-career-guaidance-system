@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Profile Settings | Smart Career Guidance System</title>
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+<div class="dashboard-layout">
+
+
+    <!-- =========================================
+         LEFT SIDEBAR
+    ========================================== -->
+
+    <aside class="dashboard-sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                ✦
+            </div>
+
+            <div>
+                <strong>Smart Career</strong>
+                <span>Guidance System</span>
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE -->
+
+        <div class="sidebar-profile">
+
+            <div class="profile-avatar">
+                S
+            </div>
+
+            <h3 id="profileUserName">
+                Student Name
+            </h3>
+
+            <p id="profileUserEmail">
+                student@example.com
+            </p>
+
+            <span class="profile-status">
+                ● Student
+            </span>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="sidebar-nav">
+
+            <a
+                href="dashboard.html"
+                class="sidebar-nav-item"
+            >
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+
+            <a
+                href="assessment.html"
+                class="sidebar-nav-item"
+            >
+                <span>📝</span>
+                Assessment
+            </a>
+
+
+            <a
+                href="recommendation.html"
+                class="sidebar-nav-item"
+            >
+                <span>🎯</span>
+                Career Recommendation
+            </a>
+
+        </nav>
+
+
+        <!-- SIDEBAR BOTTOM -->
+
+        <div class="sidebar-bottom">
+
+            <a
+                href="profile.html"
+                class="sidebar-profile-btn"
+            >
+                ⚙ Profile Settings
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================================
+         MAIN PROFILE CONTENT
+    ========================================== -->
+
+    <main class="dashboard-main">
+
+
+        <!-- TOP HEADER -->
+
+        <header class="dashboard-topbar">
+
+            <div>
+
+                <span class="welcome-label">
+                    ✦ PROFILE SETTINGS
+                </span>
+
+                <h1>
+                    Profile Settings
+                </h1>
+
+                <p>
+                    Manage your account information.
+                </p>
+
+            </div>
+
+        </header>
+
+
+        <!-- =====================================
+             PROFILE CARD
+        ====================================== -->
+
+        <section class="dashboard-card">
+
+            <div class="card-header">
+
+                <div class="card-title-icon">
+                    👤
+                </div>
+
+                <div>
+
+                    <span>
+                        ACCOUNT INFORMATION
+                    </span>
+
+                    <h2>
+                        Your Profile
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="profile-settings-form">
+
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="profileName">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="profileName"
+                        placeholder="Enter your name"
+                    >
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="profileEmail">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="profileEmail"
+                        placeholder="Enter your email"
+                        readonly
+                    >
+
+                </div>
+
+
+                <!-- SAVE -->
+
+                <button
+                    type="button"
+                    id="saveProfileBtn"
+                    class="assessment-btn"
+                >
+                    Save Changes
+                </button>
+
+
+                <p id="profileMessage"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>
